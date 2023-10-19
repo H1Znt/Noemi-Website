@@ -85,7 +85,7 @@
 
 /* Header */
 
-.header {
+.header-content {
   width: 100%;
   padding-top: 28px;
 
@@ -264,19 +264,19 @@
 
 /* Titile */
 
-.title-container {
-  margin-top: 14px;
+.title-link {
+  text-decoration: none;
 }
 
 .title-content {
+  margin-top: 14px;
+  
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
+  color: #000000;
   
   text-transform: uppercase;
-
-  color: #000000;
-  cursor: pointer;
 }
 
 .title-content:hover {
@@ -285,22 +285,22 @@
 
 /* Author */
 
-.desc-container {
+.meta {
   margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
 }
 
-.desc-content {
+.meta-content {
   font-size: 12px;
 }
 
-.desc-data {
+.meta-data {
   color: #888888 ;
   font-weight: 400;
 }
 
-.desc-author {
+.meta-author {
   margin-left: 14px;
   
   color: #000000;
@@ -340,14 +340,12 @@
 
 /* Title */
 
-.new-post-title {
+.post-title {
   margin-bottom: 42px;
   position: relative;
   display: flex;
   justify-content: center;
-}
-
-.post-title {
+  
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
@@ -358,7 +356,7 @@
   cursor: pointer;
 }
 
-.new-post-title::after {
+.post-title::after {
   content: "";
   display: block;
   width: 66px;
@@ -401,7 +399,7 @@
   width: 182px;
 }
 
-.aside-author {
+.aside-meta-author {
   display: block;
   font-size: 12px;
   font-weight: 400;
